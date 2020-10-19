@@ -1,0 +1,20 @@
+{
+    "name": "pil/quete_composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "arnaud pilato",
+            "email": "pilato.arnaud@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "App\\Wcs\\" : "src/Wcs"
+        }
+    },
+
+    "require": {
+        "ehime/hello-world": "^1.0"
+    }
+}
